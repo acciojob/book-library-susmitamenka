@@ -1,20 +1,50 @@
 /*  your css code here. If applicable */
-img{
-	display:flex;
-	justify-content:center;
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
-body{
-	background-color: #f8f8f8;
+
+.book-library{
+	border: none;
+	border-radius: 10px;
+	margin: 30px auto;
+	text-align: center;
+	background-color: #ffffff;
+	box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 20%);
+	width: 90%;
+	max-width: 600px;
+	min-height: 100vh;
 }
-.book-libary{
-	background-color:#ffffff;
-	display:flex;
-	flex-direction:center;
+
+h1{
+	background-color: #DCDCDC;
+	padding: 15px;
+	margin-bottom: 15px
 }
-.price-block{
-	background-color:#2ecc71;
-	text-align:center;
+
+.book{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 5px;
+	background-color: #DCDCDC;
+	padding: 15px;
+	margin-bottom: 15px;
+	border: 1px solid #ddd;
+	border-radius: 5px;
 }
-.author{
-	color:#777777;
+h2,p{
+	align-self: flex-start;
+}
+p{
+	color: #777777;
+}
+.button{
+	background-color: #2ecc71;
+	color: white;
+	border: none;
+	width: 100%;
+	padding: 10px;
+	border-radius: 5px;
 }
